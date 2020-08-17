@@ -37,24 +37,4 @@
 {
   background-color:#34FFDD;
 }
-.tap
-{
-  color: #ddd;
-  position: relative;
-  vertical-align: middle;
-  display:table;
-  background-color: #273345;
-  vertical-align: middle;
-  bottom: 65px;
-  height: 60px;
-  width: 300px;
-  left: 915px;
-  pointer-events: none;
-}
-.music
-{
-  position: relative;
-  text-align: center;
-  left:133px;
-}
 
