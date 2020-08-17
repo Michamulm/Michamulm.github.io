@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SickART</title>
     <link rel="stylesheet" href="style1.css">
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
   </head>
   <body>
   <div class="top">
@@ -23,12 +23,25 @@
     </div>
 <div class="music">
 
+<audio id="audio" autoplay="true" src="C:\Users\micha\Desktop\html\linktree\lofi.mp3">
 
+</audio>
 </div>
-<div class="tap">
+<br>
+<div class="button">
+<button type="button" name="button" onclick="play()">Chill music?</button>
+</div>
 
-  
-  
-</div>
+<script>
+  function play() {
+    var audio = document.getElementById("audio");
+    audio.play();
+  }
+</script>
+
+<script type="text/javascript">
+  var audio = document.getElementById("audio");
+  audio.volume = 0.2;
+</script>
   </body>
 </html>
