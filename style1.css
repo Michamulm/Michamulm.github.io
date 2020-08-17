@@ -22,6 +22,7 @@
 }
 .link
 {
+  font-weight: bold;
   color: black;
   display: block;
   background-color: white;
