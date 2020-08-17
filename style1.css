@@ -45,8 +45,8 @@ text-align: center;
 }
 button
 {
-  top: 400px;
-  left: 863px;
+  margin-top: 400px;
+  margin-left: 863px;
   position: relative;
   text-align: center;
   font-size: 1.5em;
