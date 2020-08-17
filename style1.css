@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500,600,700&display=swap');
+:root
+{
+  background-color: #273345;
+  font-family: 'asap'
+}
+
+.top
+{
+  color: #ddd;
+  position: relative;
+  text-align: center;
+  display: block;
+}
+.content
+{
+     max-width: 675px;
+     width: auto;
+     display: block;
+     margin: 27px auto;
+
+}
+.link
+{
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  display: block;
+  border: solid #273345;
+  background-color: white;
+  width: auto;
+  height: 50px;
+  transition: all .25s cubic-bezier(.08,.59,.29,.99);
+  margin-bottom: 20px;
+  text-decoration: none;
+  line-height: 3em;
+}
+.link:hover
+{
+  background-color:#34FFDD;
+}
+.tap
+{
+  color: #ddd;
+  position: relative;
+  vertical-align: middle;
+  display:table;
+  background-color: #273345;
+  vertical-align: middle;
+  bottom: 65px;
+  height: 60px;
+  width: 300px;
+  left: 915px;
+  pointer-events: none;
+}
+.music
+{
+  position: relative;
+  text-align: center;
+  left:133px;
+}
