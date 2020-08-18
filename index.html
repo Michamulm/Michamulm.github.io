@@ -1,0 +1,42 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+
+
+  <body>
+
+<div class="banner">
+
+  <video id="video" muted autoplay onloadstart="this.volume=0.1"; src="Juice WRLD  Make Believe  Bass Boosted.mp4" >
+
+  </video>
+
+
+
+</div>
+
+<div class="content">
+<button onclick="togglePlay()" type="button" name="button">UNMUTE</button>
+
+</div>
+
+
+<script type="text/javascript">
+var audioElement= document.getElementById("video");
+function togglePlay() {
+    if (audioElement.muted = false) {
+        audioElement.muted = true();
+    }
+    else {
+        (audioElement.muted =false);
+    }
+};
+</script>
+
+</body>
+
+</html>
