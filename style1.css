@@ -45,11 +45,17 @@ text-align: center;
 }
 button
 {
-  margin-top: 24%;
-  margin-left: 47%;
   font-size: 1.5em;
   font-weight: 550;
   border: none;
   color: black;
   font-family: 'asap'
 }
+.button
+{
+  text-align: center;
+  vertical-align: bottom;
+  display: block;
+  margin-top: 23%;
+}
+
